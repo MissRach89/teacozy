@@ -107,17 +107,28 @@ header nav span {
   margin: 0px 10px;
 }
 
-/* Feature Banner */
+/* Feature Mission Banner */
 
 .mission {
   height: 700px;
+  width: 100%;
   background-image: url("../../resources/img/img-mission-background.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .mission-text {
-  padding: 40px;
+  width: 100%;
+}
+
+/* Locations */
+
+.locations {
+  height: 500px;
+  width: 100%;
+  background-image: url("../../resources/img/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /* Footer */
