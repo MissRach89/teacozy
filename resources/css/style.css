@@ -118,10 +118,26 @@ header nav span {
   background-position: center;
 }
 
-#mission-text {
+.mission-text {
   width: 1200px;
   padding: 20px;
   background-color: black;
+}
+
+/* Store */
+
+.store {
+  flex-direction: column;
+  width: 1000px;
+  justify-content: center;
+  margin: auto;
+  padding: 40px 0px;
+}
+
+.itemphoto {
+  width: 300px;
+  height: 200px;
+  margin: 10px 15px;
 }
 
 /* Locations */
@@ -143,7 +159,7 @@ header nav span {
   padding-bottom: 20px;
 }
 
-.location-details h3{
+.location-details h3, p{
   opacity: 1;
 }
 
