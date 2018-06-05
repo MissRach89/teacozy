@@ -3,10 +3,14 @@
 * {
   margin: 0px;
   font-family: "Helvetica", sans-serif;
-  background-color: black;
   color: seashell;
   text-align: center;
 }
+
+body {
+  background-color: black;
+}
+
 .content {
   padding-top: 69px;
   margin: auto;
@@ -16,8 +20,9 @@
 
 .flex-container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* General Typography Styling */
@@ -42,7 +47,6 @@ h3 {
   font-size: 28px;
   line-height: 32px;
   padding-bottom: 22px;
-  padding-top: 22px;
   opacity: 0.9;
 }
 
@@ -51,7 +55,6 @@ h4 {
   font-weight: bold;
   line-height: 26px;
   padding-bottom: 22px;
-  padding-top: 22px;
   opacity: 0.9;
 }
 
@@ -60,7 +63,6 @@ h5 {
   font-weight: bold;
   line-height: 22px;
   padding-bottom: 22px;
-  padding-top: 22px;
   opacity: 0.9;
 }
 
@@ -68,7 +70,6 @@ p {
   font-size: 22px;
   line-height: 26px;
   padding-bottom: 26px;
-  padding-top: 26px;
   opacity: 0.9;
 }
 
@@ -117,8 +118,10 @@ header nav span {
   background-position: center;
 }
 
-.mission-text {
-  width: 100%;
+#mission-text {
+  width: 1200px;
+  padding: 20px;
+  background-color: black;
 }
 
 /* Locations */
@@ -129,6 +132,23 @@ header nav span {
   background-image: url("../../resources/img/img-locations-background.jpg");
   background-size: cover;
   background-position: center;
+  flex-direction: column;
+}
+
+.location-details {
+  background-color: black;
+  width: 300px;
+  margin: 15px 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.location-details h3{
+  opacity: 1;
+}
+
+.location-details p {
+  opacity: 1;
 }
 
 /* Footer */
